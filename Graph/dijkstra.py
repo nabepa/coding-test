@@ -1,7 +1,6 @@
-# Dijkstra shortest path algorithm using Priority Queue
+# Search shortest paths (single->all)
 import heapq
-import sys
-input = sys.stdin.readline
+
 INF = int(1e9)
 
 v, e = map(int, input().split())  # len of vertex, edge
@@ -41,7 +40,7 @@ for i in range(1, v + 1):
         print(distance[i])
 
 '''
-test case
+input
 6 11
 1 
 1 2 2

@@ -1,7 +1,5 @@
-# Shortest paths (single->all)
+# Search shortest paths (single->all)
 # useful for graphs in which some of the edge weights are negative
-import sys
-input = sys.stdin.readline
 
 # INF = int(1e9)
 INF = float('inf')
