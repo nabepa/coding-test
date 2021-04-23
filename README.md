@@ -13,7 +13,7 @@
 
 ## [Math](https://github.com/nabepa/coding-test/tree/master/Math)
 ### [Find divisors](https://github.com/nabepa/coding-test/blob/master/Math/divisors.py)
-### [Primality]
+### [Primality](https://github.com/nabepa/coding-test/blob/master/Math/primality.py)
 1. Primality test of n
 2. Find prime numbers until n
 3. Find n-th prime number
