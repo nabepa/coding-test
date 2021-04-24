@@ -15,11 +15,9 @@ def bellman_ford(edges, start):
     dist = [INF] * (v + 1)
     dist[start] = 0
 
-    # Relax edges repeatedly
+    # Relax edges v-1 times
     for _ in range(v - 1):
         for a, b, cost in edges:
-            if dist[a] == INF:
-                continue
             temp = dist[a] + cost
             if dist[b] > temp:
                 dist[b] = temp
