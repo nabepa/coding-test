@@ -1,8 +1,9 @@
 # Search shortest paths (single->all)
 # useful for graphs in which some of the edge weights are negative
 
-# INF = int(1e9)
 INF = float('inf')
+# When you check unreachable negative-wight cycle, use below
+# INF = int(1e9)
 
 v, e = map(int, input().split())  # len of vertex, edge
 edges = []
