@@ -1,4 +1,4 @@
-## [Data Structures](https://github.com/nabepa/coding-test/tree/master/DataStructure)
+## [Data Structure](https://github.com/nabepa/coding-test/tree/master/DataStructure)
 ### [Disjoint set](https://github.com/nabepa/coding-test/blob/master/DataStructure/disjoint_set.py)
 - union-find
 
@@ -17,3 +17,8 @@
 1. Primality test of n
 2. Find prime numbers until n
 3. Find n-th prime number
+
+## [Searching](https://github.com/nabepa/coding-test/tree/master/Searching)
+### [Binary Search](https://github.com/nabepa/coding-test/blob/master/Searching/binary_search.py)
+### [Python Binary Search Library](https://github.com/nabepa/coding-test/blob/master/Searching/bisect_library.py)
+- Count by range
