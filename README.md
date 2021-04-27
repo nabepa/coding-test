@@ -22,6 +22,8 @@
 3. Find n-th prime number
 
 ## [Searching](https://github.com/nabepa/coding-test/tree/master/Searching)
+### [BFS](https://github.com/nabepa/coding-test/blob/master/Searching/bfs.py)
+### [DFS](https://github.com/nabepa/coding-test/blob/master/Searching/dfs.py)
 ### [Binary Search](https://github.com/nabepa/coding-test/blob/master/Searching/binary_search.py)
 ### [Python Binary Search Library](https://github.com/nabepa/coding-test/blob/master/Searching/bisect_library.py)
 - Count by range
