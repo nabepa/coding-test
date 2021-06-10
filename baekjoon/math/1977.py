@@ -1,4 +1,5 @@
 # https://www.acmicpc.net/problem/1977
+# 완전제곱수
 import math
 
 m = int(input())

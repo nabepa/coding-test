@@ -1,4 +1,5 @@
 # https://www.acmicpc.net/problem/5618
+# 공약수
 import math
 n = int(input())
 array = list(map(int, input().split()))

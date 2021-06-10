@@ -24,3 +24,5 @@ a = array[0]
 result = []
 # for i in range(1, len(array)):
 #     if check_primality(a + array[i]) == True:
+
+# 아직 미완성

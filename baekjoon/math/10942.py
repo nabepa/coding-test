@@ -1,5 +1,5 @@
-#  팰린드롬 & BFS
 # https://www.acmicpc.net/problem/10942
+#  팰린드롬 & DP
 import sys
 input = sys.stdin.readline
 

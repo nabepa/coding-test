@@ -1,4 +1,5 @@
 # https://www.acmicpc.net/problem/1747
+# 소수&팰린드롬
 import math
 from bisect import bisect_left
 
