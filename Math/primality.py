@@ -5,20 +5,29 @@ from math import sqrt, log, ceil
 
 # 주어진 수가 소수인지 판별
 # 약수는 짝을 이루므로 루트 값까지 나누어 떨어지지 않으면, 그 이후도 나누어 떨어지지 않음
+# def check_primality(n):
+#     if n == 1:
+#         return False
+#     cnt = 0
+#     i = 1
+#     while i <= sqrt(n):
+#         if n % i == 0:
+#             cnt += 2
+#             if cnt > 2:
+#                 break
+#         i += 1
+#     return True if cnt <= 2 else False
 def check_primality(n):
-    cnt = 0
-    i = 1
-    while i <= sqrt(n):
+    if n == 1:
+        return False
+    for i in range(2, int(sqrt(n)) + 1):
         if n % i == 0:
-            cnt += 2
-            if cnt > 2:
-                break
-        i += 1
-    return True if cnt <= 2 else False
+            return False
+    return True
+    # n까지의 소수 찾기
+    # Find prime numbers until n
 
 
-# n까지의 소수 찾기
-# Find prime numbers until n
 def find_primes_until(n):
     array = [True for i in range(n + 1)]
 
@@ -56,5 +65,5 @@ def find_nth_prime(n):
 if __name__ == '__main__':
     n = int(input())
     print(check_primality(n))
-    print(find_primes_until(n))
-    print(find_nth_prime(n))
+    # print(find_primes_until(n))
+    # print(find_nth_prime(n))7
